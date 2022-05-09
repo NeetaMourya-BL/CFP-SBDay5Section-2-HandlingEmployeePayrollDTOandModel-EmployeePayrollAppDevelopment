@@ -7,6 +7,9 @@ public class EmployeePayrollData {
     private String name;
     private long salary;
 
+    public EmployeePayrollData() {
+        // TODO Auto-generated constructor stub
+    }
     public EmployeePayrollData(int employeeId, String name, long salary) {
         super();
         this.employeeId = employeeId;
